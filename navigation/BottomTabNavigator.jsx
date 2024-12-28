@@ -1,15 +1,9 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { StyleSheet, TouchableOpacity, View } from "react-native";
-
-import Login from "../screens/LoginScreen";
-import RegistrationScreen from "../screens/RegistrationScreen";
-import Home from "../screens/Home";
 import PostsScreen from "../screens/PostsScreen";
 import ProfileScreen from "../screens/ProfileScreen";
 import CreatePostsScreen from "../screens/CreatePostsScreen";
-
 import { MaterialIcons, Feather } from "@expo/vector-icons";
-
 import styles from "../styles/BottomTabStyles";
 
 const Tab = createBottomTabNavigator();

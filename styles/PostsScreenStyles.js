@@ -10,68 +10,82 @@ export default StyleSheet.create({
     paddingHorizontal: 16,
     marginBottom: 83,
   },
-  userSection: {
+  userContainer: {
     flexDirection: "row",
     alignItems: "center",
-    marginVertical: 32,
+    paddingHorizontal: 16, // Відступи з боків
+    paddingVertical: 16, // Відступи зверху та знизу
+    marginTop: 16, // Щоб віддалити від хедера
+  },
+  avatarWrapper: {
+    marginRight: 12, // Відступ між аватаром і текстом
   },
   avatar: {
     width: 60,
     height: 60,
     borderRadius: 30,
-    marginRight: 12,
   },
   userName: {
     fontSize: 13,
     fontFamily: "Roboto-Bold",
+    color: "#212121",
   },
   userEmail: {
     fontSize: 11,
     fontFamily: "Roboto-Regular",
     color: "#BDBDBD",
   },
-  post: {
+  postCard: {
+    width: "100%",
+    maxWidth: 343,
+    height: 300,
+    display: "flex",
+    gap: 8,
     marginBottom: 32,
   },
-  postImage: {
-    width: "100%",
+  imgWrapper: {
+    width: 343,
     height: 240,
     borderRadius: 8,
+    overflow: "hidden",
   },
-  postCaption: {
+  img: {
+    width: "100%",
+    height: 240,
+    objectFit: "cover",
+  },
+  postTitle: {
     fontSize: 16,
-    fontFamily: "Roboto-Medium",
-    marginVertical: 8,
+    fontWeight: 500,
   },
-  wrapperRow: {
+  postDescription: {
+    display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
-    alignItems: "center",
   },
-  commentSection: {
+  feedback: {
+    display: "flex",
+    flexDirection: "row",
+    gap: 24,
+  },
+  feedbackItem: {
+    display: "flex",
     flexDirection: "row",
     alignItems: "center",
-    gap: 4,
+    gap: 6,
   },
-  locationSection: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 4,
-  },
-  commentCount: {
+  feedbackText: {
     fontSize: 16,
-    fontFamily: "Roboto-Regular",
-    color: "#BDBDBD",
   },
-  commentCountActive: {
-    color: "#FF6C00",
+  location: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 4,
   },
   locationText: {
-    fontFamily: "Roboto-Regular",
-    fontSize: 16,
-    lineHeight: 18.75,
-    color: "#212121",
     textDecorationLine: "underline",
-    flexWrap: "wrap",
+    textDecorationStyle: "solid",
+    textDecorationColor: "#212121",
   },
 });

@@ -64,47 +64,4 @@ export default StyleSheet.create({
     color: "#212121",
     marginBottom: 32,
   },
-  post: {
-    marginBottom: 32,
-  },
-  postImage: {
-    width: "100%",
-    height: 240,
-    borderRadius: 8,
-  },
-  wrapperRow: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    marginTop: 8,
-  },
-  commentSection: {
-    flexDirection: "row",
-    alignItems: "center",
-  },
-  locationSection: {
-    flexDirection: "row",
-    alignItems: "center",
-  },
-  likeSection: {
-    flexDirection: "row",
-    alignItems: "center",
-  },
-  commentCount: {
-    marginLeft: 4,
-    fontSize: 16,
-    color: "#212121",
-  },
-  locationText: {
-    fontFamily: "Roboto-Regular",
-    fontSize: 16,
-    color: "#212121",
-    textDecorationLine: "underline",
-    marginLeft: 4,
-  },
-  likeCount: {
-    marginLeft: 4,
-    fontSize: 16,
-    color: "#212121",
-  },
 });
